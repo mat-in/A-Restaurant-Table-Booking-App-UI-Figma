@@ -1,0 +1,1764 @@
+CSS(HOME)
+/* HOME */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: #FFFFFF;
+
+
+/* Frame 4 */
+
+position: absolute;
+width: 396px;
+height: 675px;
+left: 16px;
+top: 578px;
+overflow-y: scroll;
+
+
+
+/* Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 0px 0px;
+gap: 10px;
+
+position: absolute;
+width: 396px;
+height: 695px;
+left: 0px;
+top: 0px;
+overflow-y: scroll;
+
+
+
+/* Home/Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 396px;
+height: 679px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home/Card */
+
+width: 396px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Card / Meal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+left: 0%;
+right: 0.25%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 297px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Greek Salad */
+
+width: 296px;
+height: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $12.99 */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 83px;
+height: 83px;
+
+background: url(greek salad.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Line 2 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Home/Card */
+
+width: 396px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card / Meal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+left: 0%;
+right: 0.25%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 297px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Greek Salad */
+
+width: 296px;
+height: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $12.99 */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 83px;
+height: 83px;
+
+background: url(Bruschetta.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Line 2 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Home/Card */
+
+width: 396px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Card / Meal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+left: 0%;
+right: 0.25%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 297px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Greek Salad */
+
+width: 296px;
+height: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $12.99 */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 83px;
+height: 83px;
+
+background: url(Grilled fish.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Line 2 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Home/Card */
+
+width: 396px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Card / Meal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+left: 0%;
+right: 0.25%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 297px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Greek Salad */
+
+width: 296px;
+height: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $12.99 */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 83px;
+height: 83px;
+
+background: url(pasta.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Line 2 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Home/Card */
+
+width: 396px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Card / Meal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+left: 0%;
+right: 0.25%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 297px;
+height: 123px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Greek Salad */
+
+width: 296px;
+height: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $12.99 */
+
+width: 297px;
+height: 43px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 83px;
+height: 83px;
+
+background: url(greek salad.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Line 2 */
+
+position: absolute;
+left: 0.51%;
+right: 0%;
+top: 97.56%;
+bottom: 2.44%;
+
+border: 1px solid #EDEFEE;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+visibility: hidden;
+width: 430px;
+height: 130px;
+left: -2px;
+top: 433px;
+
+background: #FFFFFF;
+
+
+/* Home/Order */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 40px 0px 32px;
+gap: 16px;
+
+position: absolute;
+width: 396px;
+height: 150px;
+left: 16px;
+top: 427px;
+overflow-x: scroll;
+
+background: #FFFFFF;
+border-bottom: 1px solid rgba(51, 51, 51, 0.25);
+
+
+/* Order FOR DELIVERY! */
+
+width: 296px;
+height: 23px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pills */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 412px;
+height: 39px;
+overflow-x: scroll;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Pill */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 69px;
+height: 39px;
+
+background: #EDEFEE;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 49px;
+height: 19px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pill */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 69px;
+height: 39px;
+
+background: #EDEFEE;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 49px;
+height: 19px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pill */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 88px;
+height: 39px;
+
+background: #EDEFEE;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 68px;
+height: 19px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pill */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 101px;
+height: 39px;
+
+background: #EDEFEE;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 81px;
+height: 19px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pill */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 88px;
+height: 39px;
+
+background: #EDEFEE;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 68px;
+height: 19px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #495E57;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home/hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 40px;
+gap: 16px;
+
+position: absolute;
+width: 428px;
+height: 347px;
+left: 0px;
+top: 80px;
+
+background: #495E57;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 280px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Little Lemon */
+
+width: 280px;
+height: 77px;
+
+/* Display_serif */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+color: #F4CE14;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -21px 0px;
+
+
+/* Chicago */
+
+width: 107px;
+height: 48px;
+
+/* Subheading */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #EDEFEE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* home/CTA */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 395px;
+height: 187px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 395px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 242px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. */
+
+width: 242px;
+height: 105px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Img_pop */
+
+width: 147px;
+height: 152px;
+
+background: url(restaurant food B.jpg);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button/Primary */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 148px;
+height: 35px;
+
+background: #F4CE14;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 116px;
+height: 19px;
+
+/* Nav_Link */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home/hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 40px;
+gap: 16px;
+
+position: absolute;
+width: 428px;
+height: 347px;
+left: 0px;
+top: 80px;
+
+background: #495E57;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 280px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Little Lemon */
+
+width: 280px;
+height: 77px;
+
+/* Display_serif */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+color: #F4CE14;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -21px 0px;
+
+
+/* Chicago */
+
+width: 107px;
+height: 48px;
+
+/* Subheading */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #EDEFEE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* home/CTA */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 395px;
+height: 187px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 395px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 242px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. */
+
+width: 242px;
+height: 105px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Img_pop */
+
+width: 147px;
+height: 152px;
+
+background: url(restaurant food B.jpg);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button/Primary */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 148px;
+height: 35px;
+
+background: #F4CE14;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 116px;
+height: 19px;
+
+/* Nav_Link */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home/hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 40px;
+gap: 16px;
+
+position: absolute;
+width: 428px;
+height: 347px;
+left: 0px;
+top: 80px;
+
+background: #495E57;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 280px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Little Lemon */
+
+width: 280px;
+height: 77px;
+
+/* Display_serif */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+color: #F4CE14;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -21px 0px;
+
+
+/* Chicago */
+
+width: 107px;
+height: 48px;
+
+/* Subheading */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #EDEFEE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* home/CTA */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 395px;
+height: 187px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 395px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 242px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. */
+
+width: 242px;
+height: 105px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Img_pop */
+
+width: 147px;
+height: 152px;
+
+background: url(restaurant food B.jpg);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button/Primary */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 148px;
+height: 35px;
+
+/* button */
+background: #F4CE14;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 116px;
+height: 19px;
+
+/* Button */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 85.05%;
+right: 4.21%;
+top: 2.81%;
+bottom: 92.44%;
+
+background: #495E57;
+
+
+/* Logo */
+
+position: absolute;
+width: 147.5px;
+height: 40px;
+left: 141px;
+top: 25px;
+
+background: url(Asset 16@4x.png);
+
+
+/* 🦆 icon "hamburger menu" */
+
+position: absolute;
+width: 35px;
+height: 25px;
+left: 18px;
+top: 23px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 4.21%;
+right: 87.62%;
+top: 2.48%;
+bottom: 94.82%;
+
+background: #000000;
