@@ -1,4 +1,7 @@
 # A-restaurant-app-UI-Figma
+
+## Figma Link - https://www.figma.com/design/PqbfjdHZbkxGRBMtbj5mBH/little-lemon-ui?node-id=22-1629&t=0FgWixkP7pGXHAwp-1
+
 ## ACTIVITY 1 - HOME
 ![image](https://github.com/user-attachments/assets/d599a34d-b945-4a0f-8a64-0ca9efc12845)
 I've designed a mobile website/app user interface for my restaurant, Little Lemon, located in Chicago. The design features our yellow lemon logo and uses a color scheme of yellow, white, and dark green.
