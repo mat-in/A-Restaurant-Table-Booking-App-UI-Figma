@@ -1,0 +1,829 @@
+/* FIND A TABLE */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: #FFFFFF;
+
+
+/* Home/hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 40px;
+gap: 16px;
+
+position: absolute;
+width: 428px;
+height: 845px;
+left: 0px;
+top: 81px;
+
+background: #EDEFEE;
+
+
+/* Field Content */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 15px;
+gap: 8px;
+
+position: absolute;
+width: 279px;
+height: 45px;
+left: 126px;
+top: 223px;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* calendar-week */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* union-1 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 4.17%;
+bottom: 8.33%;
+
+background: #AAAAAA;
+
+
+/* 25/11/2023 */
+
+width: 161px;
+height: 19px;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Circle_Carret_Right */
+
+width: 60px;
+height: 60px;
+
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 70.83%;
+right: -12.5%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #48742C;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 50%;
+top: 54.17%;
+bottom: 29.17%;
+
+/* box2 */
+border: 1px solid #FFFFFF;
+transform: rotate(-90deg);
+
+
+/* Find your table */
+
+position: absolute;
+width: 325px;
+height: 77px;
+left: 51px;
+top: 105px;
+
+/* Title */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+/* Input Field */
+color: #333333;
+
+
+
+/* Date */
+
+position: absolute;
+width: 91px;
+height: 33px;
+left: 15px;
+top: 232px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Time */
+
+position: absolute;
+width: 91px;
+height: 33px;
+left: 15px;
+top: 320px;
+
+/* form */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Input Field */
+
+position: absolute;
+width: 279px;
+height: 60px;
+left: 124px;
+top: 388px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 279px;
+height: 45px;
+left: 124px;
+top: 396px;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Group 2 */
+
+position: absolute;
+left: 42.29%;
+right: 47.2%;
+top: 44.17%;
+bottom: 53.78%;
+
+
+
+/* 19 : 30 */
+
+position: absolute;
+left: 42.29%;
+right: 47.2%;
+top: 44.17%;
+bottom: 53.78%;
+
+
+
+/* 19 : 30 */
+
+position: absolute;
+left: 0%;
+right: 80%;
+top: 0%;
+bottom: 0%;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Circle_Carret_Right */
+
+position: absolute;
+left: 94.16%;
+right: -8.18%;
+top: 41.9%;
+bottom: 51.62%;
+
+transform: rotate(90deg);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 70.83%;
+right: -12.5%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #48742C;
+transform: rotate(90deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 50%;
+top: 54.17%;
+bottom: 29.17%;
+
+/* box2 */
+border: 1px solid #FFFFFF;
+transform: rotate(-90deg);
+
+
+/* user */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 146px;
+top: 406px;
+
+
+
+/* union-1 */
+
+position: absolute;
+left: 15.31%;
+right: 15.31%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #AAAAAA;
+
+
+/* Guests */
+
+position: absolute;
+width: 91px;
+height: 33px;
+left: 18px;
+top: 404px;
+
+/* form */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Table (Optional) */
+
+position: absolute;
+width: 84px;
+height: 42px;
+left: 22px;
+top: 511px;
+
+/* form */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Inside */
+
+position: absolute;
+width: 55px;
+height: 21px;
+left: 126px;
+top: 514px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* Outside */
+
+position: absolute;
+width: 62px;
+height: 21px;
+left: 314px;
+top: 514px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* Event zone */
+
+position: absolute;
+width: 58px;
+height: 42px;
+left: 226px;
+top: 504px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* * */
+
+position: absolute;
+width: 13px;
+height: 14px;
+left: 101px;
+top: 224px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #FF1515;
+
+
+
+/* * */
+
+position: absolute;
+width: 13px;
+height: 14px;
+left: 102px;
+top: 313px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #FF1515;
+
+
+
+/* * */
+
+position: absolute;
+width: 13px;
+height: 14px;
+left: 105px;
+top: 396px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #FF1515;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 428px;
+height: 81px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 85.05%;
+right: 4.21%;
+top: 2.92%;
+bottom: 92.33%;
+
+background: #495E57;
+
+
+/* Logo */
+
+position: absolute;
+width: 147.5px;
+height: 40px;
+left: 141px;
+top: 26px;
+
+background: url(Asset 16@4x.png);
+
+
+/* 🦆 icon "hamburger menu" */
+
+position: absolute;
+width: 35px;
+height: 25px;
+left: 18px;
+top: 24px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 4.21%;
+right: 87.62%;
+top: 2.59%;
+bottom: 94.71%;
+
+background: #000000;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 378px;
+height: 243px;
+left: 25px;
+top: 665px;
+
+background: url(pexels-pixabay-262978.jpg);
+border-radius: 16px;
+
+
+/* Input Field */
+
+position: absolute;
+width: 279px;
+height: 61px;
+left: 126px;
+top: 301px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 11.48%;
+bottom: 14.75%;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Circle_Carret_Right */
+
+position: absolute;
+left: 77.78%;
+right: 0.72%;
+top: 1.64%;
+bottom: 0%;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #48742C;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 37.5%;
+top: 58.33%;
+bottom: 25%;
+
+/* box2 */
+border: 1px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Circle_Carret_Right */
+
+position: absolute;
+left: 21.86%;
+right: 56.63%;
+top: 98.36%;
+bottom: -96.72%;
+
+transform: rotate(-180deg);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 70.83%;
+right: -12.5%;
+top: 70.83%;
+bottom: -12.5%;
+
+background: #48742C;
+transform: rotate(-180deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 45.83%;
+right: 45.83%;
+top: 41.67%;
+bottom: 41.67%;
+
+/* box2 */
+border: 1px solid #FFFFFF;
+
+
+/* Group 2 */
+
+position: absolute;
+left: 34.41%;
+right: 34.77%;
+top: 29.51%;
+bottom: 31.15%;
+
+
+
+/* clock */
+
+position: absolute;
+left: 34.41%;
+right: 56.99%;
+top: 29.51%;
+bottom: 31.15%;
+
+
+
+/* union-1 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #AAAAAA;
+
+
+/* 19 : 30 */
+
+position: absolute;
+left: 49.1%;
+right: 34.77%;
+top: 32.79%;
+bottom: 36.07%;
+
+
+
+/* 19 : 30 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 181px;
+top: 513px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #48742C;
+
+
+/* Vector */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 279px;
+top: 512px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #48742C;
+
+
+/* Vector */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 380px;
+top: 513px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #48742C;
+
+
+/* Submit */
+
+position: absolute;
+width: 175px;
+height: 41px;
+left: 140px;
+top: 588px;
+
+
+
+/* Submit Button */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* button */
+background: #F4CE14;
+border-radius: 16px;
+
+
+/* Place Order */
+
+position: absolute;
+left: 20%;
+right: 21.22%;
+top: 24.39%;
+bottom: 21.32%;
+
+/* Button */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Cycling */
+
+position: absolute;
+left: 68.92%;
+right: 6.08%;
+top: 11.43%;
+bottom: 8.57%;
+
+background: url(.png);
