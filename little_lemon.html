@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu-icon, .cart-icon {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .menu-dropdown {
+    position: absolute;
+    top: 40px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000; /* Ensure dropdown is above other elements */
+}
+
+.menu-dropdown button {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.menu-dropdown button:hover {
+    background-color: #f0f0f0;
+}
+
+
+        main {
+            padding: 1rem;
+        }
+
+        section {
+            display: none;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        section.active {
+            display: block;
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background-color: #f4ce14;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .menu-item {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .alert {
+            display: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-radius: 4px;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <button class="menu-icon" onclick="toggleMenu()">≡</button>
+        <img src="Img_pop.png" alt="Little Lemon Logo">
+        <button class="cart-icon">🛒</button>
+    </nav>
+
+    <div class="menu-dropdown" id="menuDropdown">
+        <button onclick="navigateTo('find-table')">Find a Table</button>
+        <button onclick="navigateTo('signup')">Sign Up</button>
+        <button onclick="navigateTo('signin')">Sign In</button>
+        <button onclick="showAlert('Your custom alert message')">Alert Box</button>
+    </div>
+</header>
+
+
+    <main>
+        <!-- Home Page -->
+        <section id="home">
+            <h1>Little Lemon</h1>
+            <h2>Chicago</h2>
+            <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+            <button onclick="navigateTo('find-table')">Reserve a table</button>
+            
+            <h3>ORDER FOR DELIVERY!</h3>
+            <nav>
+                <button>Lunch</button>
+                <button>Mains</button>
+                <button>Desserts</button>
+                <button>A La Carte</button>
+                <button>Specials</button>
+            </nav>
+            
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="greek-salad.jpg" alt="Greek Salad">
+                    <h4>Greek Salad</h4>
+                    <p>The famous Greek salad of crispy lettuce, peppers, olives and our Chicago...</p>
+                    <span>$12.99</span>
+                </div>
+                <!-- More menu items... -->
+            </div>
+        </section>
+
+        <!-- Find Table Page -->
+        <section id="find-table">
+            <h2>Find your table</h2>
+            <form>
+                <label>
+                    DATE
+                    <input type="date" value="2023-08-25">
+                </label>
+                <label>
+                    TIME
+                    <input type="time" value="19:30">
+                </label>
+                <label>
+                    GUESTS
+                    <input type="number" value="4" min="1">
+                </label>
+                <fieldset>
+                    <legend>TABLE (OPTIONAL)</legend>
+                    <label><input type="checkbox" checked> Inside</label>
+                    <label><input type="checkbox" checked> Event Zone</label>
+                    <label><input type="checkbox" checked> Outside</label>
+                </fieldset>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+
+        <!-- Sign Up Page -->
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="FULL NAME" required>
+                <input type="email" placeholder="EMAIL" required>
+                <input type="password" placeholder="PASSWORD" required>
+                <label>
+                    <input type="checkbox">
+                    Keep me signed in on this device
+                </label>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Or sign up with</p>
+            <div class="social-buttons">
+                <button>Facebook</button>
+                <button>Google</button>
+            </div>
+        </section>
+
+        <!-- Sign In Page -->
+        <section id="signin">
+            <h2>Sign In</h2>
+            <form>
+                <input type="text" placeholder="USERNAME" required>
+                <input type="password" placeholder="PASSWORD" required>
+                <label>
+                    <input type="checkbox">
+                    Keep me signed in on this device
+                </label>
+                <button type="submit">Sign In</button>
+            </form>
+            <p>Or sign in with</p>
+            <div class="social-buttons">
+                <button>Facebook</button>
+                <button>Google</button>
+            </div>
+        </section>
+
+        <!-- Alert Component -->
+        <div id="alert" class="alert">
+            <p>Your request has been successfully sent!</p>
+            <p>You can review reservation details in the personal account.</p>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation
+            const sections = ['home', 'find-table', 'signup', 'signin'];
+            let currentSection = 'home';
+
+            function showSection(sectionId) {
+                sections.forEach(id => {
+                    document.getElementById(id).classList.remove('active');
+                });
+                document.getElementById(sectionId).classList.add('active');
+                currentSection = sectionId;
+            }
+
+            // Initialize with home section
+            showSection('home');
+
+            // Reservation form handling
+            const reserveForm = document.querySelector('#find-table form');
+            reserveForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Here you would typically send the form data to a server
+                showAlert('Your request has been successfully sent!');
+            });
+
+            // Sign up form handling
+            const signupForm = document.querySelector('#signup form');
+            signupForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Here you would typically send the form data to a server
+                showAlert('Sign up successful!');
+            });
+
+            // Sign in form handling
+            const signinForm = document.querySelector('#signin form');
+            signinForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Here you would typically send the form data to a server
+                showAlert('Sign in successful!');
+            });
+
+            function showAlert(message) {
+                const alert = document.getElementById('alert');
+                alert.textContent = message;
+                alert.style.display = 'block';
+                setTimeout(() => {
+                    alert.style.display = 'none';
+                }, 3000);
+            }
+    // Function to toggle menu dropdown
+    window.toggleMenu = function() {
+        const menuDropdown = document.getElementById('menuDropdown');
+        menuDropdown.style.display = menuDropdown.style.display === 'block' ? 'none' : 'block';
+    };
+
+    // Function to show alert
+    window.showAlert = function(message) {
+        const alert = document.getElementById('alert');
+        alert.textContent = message;
+        alert.style.display = 'block';
+        setTimeout(() => {
+            alert.style.display = 'none';
+        }, 3000);
+    };
+
+            // Example of navigation (you would need to add buttons or links to trigger these)
+            window.navigateTo = function(sectionId) {
+                showSection(sectionId);
+            }
+        });
+    </script>
+</body>
+</html>
