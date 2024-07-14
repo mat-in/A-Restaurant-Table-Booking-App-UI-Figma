@@ -1,0 +1,1027 @@
+-> Signup
+/* Sign Up Page */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+/* green */
+background: #495E57;
+
+
+/* Box */
+
+position: absolute;
+width: 390px;
+height: 805px;
+left: 19px;
+top: 48px;
+
+/* box2 */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* Keep me signed in on this device */
+
+position: absolute;
+width: 259px;
+height: 25px;
+left: 69px;
+top: 505px;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Social Icons */
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 236px;
+top: 768px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 51%;
+right: 0.97%;
+top: 40.99%;
+bottom: 12.07%;
+
+background: #4285F4;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.32%;
+right: 15.86%;
+top: 59.58%;
+bottom: 0%;
+
+background: #34A853;
+
+
+/* Vector */
+
+position: absolute;
+left: 1%;
+right: 77.07%;
+top: 27.56%;
+bottom: 27.54%;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.32%;
+right: 15.54%;
+top: 0%;
+bottom: 59.56%;
+
+background: #EA4335;
+
+
+/* Sign Up */
+
+position: absolute;
+width: 165px;
+height: 77px;
+left: 133px;
+top: 128px;
+
+/* Title */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+/* Input Field */
+color: #333333;
+
+
+
+/* Full name* */
+
+position: absolute;
+width: 111px;
+height: 23px;
+left: 49px;
+top: 263px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* email* */
+
+position: absolute;
+width: 91px;
+height: 33px;
+left: 69px;
+top: 348px;
+
+/* form */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Password* */
+
+position: absolute;
+width: 130px;
+height: 33px;
+left: 32px;
+top: 439px;
+
+/* form */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Already a member? Log In */
+
+position: absolute;
+width: 229px;
+height: 21px;
+left: 124px;
+top: 582px;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* or sign up with */
+
+position: absolute;
+width: 113px;
+height: 21px;
+left: 157px;
+top: 713px;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Back */
+
+position: absolute;
+width: 67px;
+height: 23px;
+left: 81px;
+top: 82px;
+
+/* Button */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 109px;
+height: 56px;
+left: 107px;
+top: 829px;
+
+
+
+/* Social Icons */
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 152px;
+top: 768px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.61%;
+
+background: #1877F2;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.49%;
+right: 27.73%;
+top: 19.53%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 35px;
+top: 501px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #48742C;
+
+
+/* Group 22 */
+
+position: absolute;
+width: 175px;
+height: 41px;
+left: 126px;
+top: 637px;
+
+
+
+/* Sign In Button */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* button */
+background: #F4CE14;
+border-radius: 16px;
+
+
+/* Sign Up */
+
+position: absolute;
+left: 30.86%;
+right: 30.86%;
+top: 26.83%;
+bottom: 17.07%;
+
+/* Button */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Back */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 32px;
+top: 70px;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 32px;
+top: 70px;
+
+background: #495E57;
+
+
+/* ← */
+
+position: absolute;
+width: 17px;
+height: 24px;
+left: 44px;
+top: 81px;
+
+font-family: 'October Devanagari';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Full Name Input */
+
+position: absolute;
+width: 220px;
+height: 45px;
+left: 173px;
+top: 252px;
+
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Group 413 */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+
+
+/* Intersect */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+background: #FCFCFE;
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Vector 225 */
+
+position: absolute;
+left: 88.64%;
+right: 11.36%;
+top: 37.77%;
+bottom: 56.38%;
+
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Password Input */
+
+position: absolute;
+width: 220px;
+height: 45px;
+left: 173px;
+top: 428px;
+
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Group 413 */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+
+
+/* Intersect */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+background: #FCFCFE;
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Vector 225 */
+
+position: absolute;
+left: 88.64%;
+right: 11.36%;
+top: 37.77%;
+bottom: 56.38%;
+
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Email Input */
+
+position: absolute;
+width: 220px;
+height: 45px;
+left: 173px;
+top: 336px;
+
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Group 413 */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+
+
+/* Intersect */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+background: #FCFCFE;
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Vector 225 */
+
+position: absolute;
+left: 88.64%;
+right: 11.36%;
+top: 37.77%;
+bottom: 56.38%;
+
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+-> Signin
+/* Sign In Page */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+/* green */
+background: #495E57;
+
+
+/* Box */
+
+position: absolute;
+width: 390px;
+height: 665px;
+left: 18px;
+top: 89px;
+
+/* box2 */
+background: #FFFFFF;
+border-radius: 16px;
+
+
+/* Social Icons */
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 150px;
+top: 667px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.61%;
+
+background: #1877F2;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.49%;
+right: 27.73%;
+top: 19.53%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Social Icons */
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 229px;
+top: 667px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 51%;
+right: 0.97%;
+top: 40.99%;
+bottom: 12.07%;
+
+background: #4285F4;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.32%;
+right: 15.86%;
+top: 59.58%;
+bottom: 0%;
+
+background: #34A853;
+
+
+/* Vector */
+
+position: absolute;
+left: 1%;
+right: 77.07%;
+top: 27.56%;
+bottom: 27.54%;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.32%;
+right: 15.54%;
+top: 0%;
+bottom: 59.56%;
+
+background: #EA4335;
+
+
+/* Sign In */
+
+position: absolute;
+width: 163px;
+height: 77px;
+left: 136px;
+top: 163px;
+
+/* Title */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* username* */
+
+position: absolute;
+width: 113px;
+height: 23px;
+left: 43px;
+top: 306px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Password* */
+
+position: absolute;
+width: 130px;
+height: 33px;
+left: 26px;
+top: 388px;
+
+/* form */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* or sign in with */
+
+position: absolute;
+width: 113px;
+height: 21px;
+left: 156px;
+top: 603px;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Back */
+
+position: absolute;
+width: 67px;
+height: 23px;
+left: 76px;
+top: 126px;
+
+/* Button */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Keep me signed in on this device */
+
+position: absolute;
+width: 259px;
+height: 25px;
+left: 68px;
+top: 464px;
+
+/* Paragraph */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 34px;
+top: 459px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #48742C;
+
+
+/* Group 22 */
+
+position: absolute;
+width: 175px;
+height: 41px;
+left: 126px;
+top: 525px;
+
+
+
+/* Sign In Button */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* button */
+background: #F4CE14;
+border-radius: 16px;
+
+
+/* Sign Up */
+
+position: absolute;
+left: 30.86%;
+right: 30.86%;
+top: 26.83%;
+bottom: 17.07%;
+
+/* Button */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Back */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 29px;
+top: 115px;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 29px;
+top: 115px;
+
+background: #495E57;
+
+
+/* ← */
+
+position: absolute;
+width: 17px;
+height: 24px;
+left: 41px;
+top: 126px;
+
+font-family: 'October Devanagari';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* UserName Input */
+
+position: absolute;
+width: 220px;
+height: 45px;
+left: 173px;
+top: 295px;
+
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Group 413 */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+
+
+/* Intersect */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+background: #FCFCFE;
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Vector 225 */
+
+position: absolute;
+left: 88.64%;
+right: 11.36%;
+top: 37.77%;
+bottom: 56.38%;
+
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Password2 Input */
+
+position: absolute;
+width: 220px;
+height: 45px;
+left: 173px;
+top: 376px;
+
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+/* Input Field */
+border: 1px solid #333333;
+border-radius: 16px;
+
+
+/* Group 413 */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+
+
+/* Intersect */
+
+position: absolute;
+left: 85.45%;
+right: 8.18%;
+top: 26.67%;
+bottom: 26.67%;
+
+background: #FCFCFE;
+border: 3px solid rgba(72, 116, 44, 0.6);
+
+
+/* Vector 225 */
+
+position: absolute;
+left: 88.64%;
+right: 11.36%;
+top: 37.77%;
+bottom: 56.38%;
+
+border: 3px solid rgba(72, 116, 44, 0.6);
